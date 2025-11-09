@@ -76,7 +76,7 @@ export default function App() {
               </button>
             </div>
             <div className="mt-6 flex items-center gap-4 text-sm text-white/60">
-              <div>👥 75+ members</div>
+              <div>👥 100+ members</div>
               <div>🚀 Weekly workshops</div>
               <div>🛡️ Peer mentorship</div>
             </div>
