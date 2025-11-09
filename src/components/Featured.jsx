@@ -32,39 +32,50 @@ shadow-[0_0_40px_-10px_rgba(0,0,0,0.4)] transition-all duration-300 hover:shadow
     className="w-full h-full object-cover transition-all duration-300 group-hover:brightness-110 group-hover:saturate-125"
   />
   {/* subtle gradient overlay at bottom */}
-  <div className="absolute inset-0 pointer-events-none bg-gradient-to-b from-transparent via-transparent to-black/20"></div>
+  <div className="absolute inset-0 pointer-events-none bg-linear-to-b from-transparent via-transparent to-black/20"></div>
 </div>
 
-          {/* Text */}
-          <div className="flex flex-col justify-between rounded-3xl border border-white/10 bg-[#0f111a] p-6">
-            <div>
-              <div className="text-sm text-white/60">{f.date}</div>
-              <h3 className="text-xl font-bold mt-2">{f.title}</h3>
-              <p className="mt-3 text-white/80">{f.blurb}</p>
+{/* Text */}
+<div className="relative rounded-3xl">
+  
+  {/* Gradient Border */}
+  <div className="absolute inset-0 rounded-3xl p-0.5 bg-linear-to-r from-[#8A3FFC] via-[#A855F7] to-[#3B82F6] pointer-events-none"></div>
 
-              <div className="mt-4 flex flex-wrap gap-2">
-                {f.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="text-xs px-3 py-1 rounded-full border border-white/10 bg-white/5 text-white/80"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </div>
+  {/* Inner Card */}
+  <div className="relative flex flex-col justify-between rounded-3xl bg-[#0f111a]/90 backdrop-blur-md p-6 shadow-lg transition-all duration-300 hover:shadow-[0_0_35px_rgba(138,63,252,0.4)]">
+    
+    <div>
+      <div className="text-sm text-white/60">{f.date}</div>
+      <h3 className="text-xl font-bold mt-2">{f.title}</h3>
+      <p className="mt-3 text-white/80">{f.blurb}</p>
 
-            <div className="mt-6">
-              <a
-                href={f.ctaLink}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-block text-sm border border-white/10 bg-white/5 hover:bg-white/10 px-4 py-2 rounded-full transition"
-              >
-                {f.ctaLabel} ↗
-              </a>
-            </div>
-          </div>
+      <div className="mt-4 flex flex-wrap gap-2">
+        {f.tags.map((tag) => (
+          <span
+            key={tag}
+            className="text-xs px-3 py-1 rounded-full border border-white/10 bg-white/5 text-white/80"
+          >
+            {tag}
+          </span>
+        ))}
+      </div>
+    </div>
+
+    <div className="mt-6">
+      <a
+        href={f.ctaLink}
+        target="_blank"
+        rel="noreferrer"
+        className="inline-block text-sm bg-white/5 hover:bg-white/10 border border-white/10 px-4 py-2 rounded-full transition"
+      >
+        {f.ctaLabel} ↗
+      </a>
+    </div>
+
+  </div>
+</div>
+
+
         </div>
       </div>
     </section>
