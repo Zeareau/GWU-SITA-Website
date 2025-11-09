@@ -36,14 +36,16 @@ shadow-[0_0_40px_-10px_rgba(0,0,0,0.4)] transition-all duration-300 hover:shadow
 </div>
 
 {/* Text */}
-<div className="relative rounded-3xl">
-  
+<div className="relative">
   {/* Gradient Border */}
-  <div className="absolute inset-0 rounded-3xl p-0.5 bg-linear-to-r from-[#8A3FFC] via-[#A855F7] to-[#3B82F6] pointer-events-none"></div>
+  <div className="absolute inset-0 rounded-3xl bg-linear-to-r from-[#8A3FFC] via-[#A855F7] to-[#3B82F6] transition-all duration-300 group-hover:blur-[2px] group-hover:brightness-125
+"></div>
 
   {/* Inner Card */}
-  <div className="relative flex flex-col justify-between rounded-3xl bg-[#0f111a]/90 backdrop-blur-md p-6 shadow-lg transition-all duration-300 hover:shadow-[0_0_35px_rgba(138,63,252,0.4)]">
-    
+  <div className="relative rounded-3xl bg-[#0f111a]/95 backdrop-blur-md p-6 shadow-lg 
+    border border-white/5
+    flex flex-col justify-between
+  ">
     <div>
       <div className="text-sm text-white/60">{f.date}</div>
       <h3 className="text-xl font-bold mt-2">{f.title}</h3>
@@ -66,14 +68,14 @@ shadow-[0_0_40px_-10px_rgba(0,0,0,0.4)] transition-all duration-300 hover:shadow
         href={f.ctaLink}
         target="_blank"
         rel="noreferrer"
-        className="inline-block text-sm bg-white/5 hover:bg-white/10 border border-white/10 px-4 py-2 rounded-full transition"
+        className="inline-block text-sm border border-white/10 bg-white/5 hover:bg-white/10 px-4 py-2 rounded-full transition"
       >
         {f.ctaLabel} ↗
       </a>
     </div>
-
   </div>
 </div>
+
 
 
         </div>
