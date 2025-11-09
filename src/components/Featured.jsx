@@ -5,7 +5,7 @@ import featuredImg from "/src/assets/featured_hackathon.jpg";
 const FEATURED = {
   title: "Most Recent Hackathon",
   blurb:
-    "Members of our project subcommittee participated in an NVIDIA hosted hackathon at Howard University, focusing on using NVIDIA's new Nemotron model to build an 'Agent for Impact'.",
+    "Members of our project subcommittee participated in an NVIDIA hosted hackathon at Howard University, focusing on using NVIDIA's new Nemotron model to build an 'Agent for Impact.'",
   img: featuredImg,
   alt: "Our project subcommitee at an NVIDIA Activity at Howard University",
   date: "Oct 28, 2025",
