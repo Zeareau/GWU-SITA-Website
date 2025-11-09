@@ -5,7 +5,7 @@ const FEATURED = {
   title: "GBM 3 • Business Analytics w/ CGI",
   blurb:
     "Students learned how business analysts turn messy data into real client insights. Huge thanks to CGI for hosting!",
-  img: "/assets/featured_hackathon.jpg", // ensure you place the image in /src/assets
+  img: "/src/assets/featured_hackathon.jpg", // ensure you place the image in /src/assets
   alt: "Our project subcommitee at an NVIDIA Activity at Howard University",
   date: "Nov 13, 2025",
   ctaLabel: "View Photos",
