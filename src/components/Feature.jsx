@@ -8,5 +8,4 @@ export default function Feature({ icon, title, sub }) {
       <div className="font-semibold">{title}</div>
       <div className="text-sm text-white/70">{sub}</div>
     </div>
-  );
-}
+  )};

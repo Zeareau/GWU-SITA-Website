@@ -6,6 +6,7 @@ import Track from "./components/Track";
 import { EVENTS } from "./components/events.jsx";
 import { TEAM } from "./components/team.jsx";
 import logo from "./assets/sita-logo.png";
+import Featured from "./components/Featured";
 
 const LINKS = {
   signup: "https://linktr.ee/gwusita",
@@ -190,6 +191,8 @@ export default function App() {
           </div>
         </div>
       </section>
+
+      <Featured />
 
       {/* WORKSHOPS */}
       <section id="workshops" className="mx-auto max-w-7xl px-4 py-16">
