@@ -8,11 +8,11 @@ export const EVENTS = [
     tags: ["CGI", "Data Visualization", "Client-Work"],
   },
   {
-    date: "Nov 7, 2025",
-    title: "Georgetown Sunset Social",
-    where: "USC Start - 4:30pm",
-    blurb: "Join us on a walk to Georgetown for food, fun, and socializing!",
-    tags: ["Networking", "Picnic", "Flicks"],
+    date: "---",
+    title: "TBD",
+    where: "---",
+    blurb: "---",
+    tags: [],
   },
   {
     date: "---",
