@@ -33,7 +33,7 @@ export default function NavBar({ onJump, signup = "#" }) {
             href={signup}
             className="ml-2 rounded-2xl px-4 py-2 text-sm font-medium text-white bg-linear-to-r from-[#4268F6] via-[#A43BF1] to-[#FF6F3C] hover:brightness-110 transition shadow-[0_0_20px_rgba(255,115,179,0.45)]"
           >
-            Join us
+            Contact Us
           </a>
         </nav>
       </div>
