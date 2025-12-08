@@ -9,8 +9,8 @@ const FEATURED = {
   img: featuredImg,
   alt: "Our project subcommitee at an NVIDIA Activity at Howard University",
   date: "Oct 28, 2025",
-  ctaLabel: "View Photos - N/A",
-  ctaLink: "https://photos.app.goo.gl/your-album-link",
+  ctaLabel: "View Photos",
+  ctaLink: "https://www.instagram.com/gwusita/",
   tags: ["Hackathon", "AI", "Sustainability"],
 };
 
