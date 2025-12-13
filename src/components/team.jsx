@@ -5,7 +5,7 @@ import joven from "../assets/joven_torres.jpeg";
 import emily from "../assets/emily_rose.jpeg";
 import maryam from "../assets/maryam_khadim.jpeg";
 import caitlyn from "../assets/caitlyn_nilo.jpeg";
-import patrick from "../assets/patrick_yen.jpeg";
+import henry from "../assets/henry_lin.jpeg";
 import jaya from "../assets/jaya_seecharran.jpeg";
 import khadijah from "../assets/khadijah_nassim.jpeg";
 import anieesh from "../assets/anieesh_saravanan.jpeg";
@@ -69,10 +69,10 @@ export const TEAM = [
     github: "",
   },
       {
-    name: "Patrick Yen",
+    name: "Henry Lin",
     role: "Sophomore Representative",
-    linkedin: "https://www.linkedin.com/in/pjyen/",
-    img: patrick,
+    linkedin: "https://www.linkedin.com/in/henry234lin/",
+    img: henry,
     github: "",
   },
         {
