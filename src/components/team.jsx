@@ -27,13 +27,6 @@ export const TEAM = [
     github: "",
   },
     {
-    name: "Joven Torres",
-    role: "Vice President of Operations and Competitions",
-    linkedin: "https://www.linkedin.com/in/jt-torres/",
-    img: joven,
-    github: "",
-  },
-    {
     name: "Emily Rose",
     role: "Vice President of Programming",
     linkedin: "https://www.linkedin.com/in/emily-v-rose/",
