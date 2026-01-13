@@ -11,7 +11,7 @@ export const EVENTS = [
     date: "Feb 13th | 12:00 PM - 2:00 PM",
     title: "Valentine's Day Fundraiser",
     where: "U-Yard",
-    blurb: "Need a last minute Valentine's Day Gift?Come support us by and buy chocolate strawberries for your loved ones!",
+    blurb: "Need a last minute Valentine's Day Gift? Come support us by and buy chocolate strawberries for your loved ones!",
     tags: ["Valentine's Day","Fundraiser","Chocolate"],
   },
   {
@@ -19,7 +19,7 @@ export const EVENTS = [
     title: "Industry Insights - Apple",
     where: "Duques 150",
     blurb: "Gain valuable industry insights from an Apple Software Engineer and previous CS alumni!",
-    tags: [],
+    tags: ["Apple","Alumni","Software Engineering"],
   },
   {
     date: "Apr 8th | 6:00 PM - 8:00 PM",
