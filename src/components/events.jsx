@@ -1,11 +1,11 @@
 // src/data/events.js
 export const EVENTS = [
- {
-    date: "Jan 28th | 7:00 PM - 8:00 PM",
-    title: "Industry Insights - IBM",
+  {
+    date: "Jan 26th | 7:00 PM - 8:00 PM",
+    title: "Industry Insights - AWS",
     where: "Duques 150",
-    blurb: "Gain valuable industry insights from an IBM Associate Federal Consultant and previous ISTM alumni!",
-    tags: ["IBM","Alumni","Consulting"],
+    blurb: "Gain valuable industry insights from an AWS Cloud Consultant and previous ISTM alumni!",
+    tags: ["Amazon","AWS","Alumni","Consulting"],
   },
   {
     date: "Feb 13th | 12:00 PM - 2:00 PM",
