@@ -8,7 +8,7 @@ export const EVENTS = [
     tags: ["Amazon","AWS","Alumni","Consulting"],
   },
   {
-    date: "Feb 12th | 12:00 PM - 2:00 PM",
+    date: "Feb 12th | 2:00 PM - 4:00 PM",
     title: "Valentine's Day Fundraiser",
     where: "U-Yard",
     blurb: "Need a last minute Valentine's Day Gift? Come support us by and buy chocolate strawberries for your loved ones!",
