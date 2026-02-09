@@ -22,7 +22,7 @@ export const EVENTS = [
     tags: ["Apple","Alumni","Software Engineering"],
   },
   {
-    date: "Apr 8th | 6:00 PM - 8:00 PM",
+    date: "Apr 10th | 6:00 PM - 8:00 PM",
     title: "Alumni Social",
     where: "Duques 150",
     blurb: "Reconnect with fellow alumni and make new connections over food and drinks!",
