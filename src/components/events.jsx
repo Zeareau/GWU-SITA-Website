@@ -1,7 +1,7 @@
 // src/data/events.js
 export const EVENTS = [
   {
-    date: "Feb 5th | 6:00 PM - 7:15 PM",
+    date: "Feb 5th | 6:00 PM - 8:00 PM",
     title: "Industry Insights - AWS",
     where: "Duques 155",
     blurb: "Gain valuable industry insights from an AWS Cloud Consultant and previous ISTM alumni!",
@@ -16,21 +16,21 @@ export const EVENTS = [
   },
   {
     date: "Mar 23rd | 7:00 PM - 8:00 PM",
-    title: "Industry Insights - Apple",
-    where: "Duques 150",
-    blurb: "Gain valuable industry insights from an Apple Software Engineer and previous CS alumni!",
-    tags: ["Apple","Alumni","Software Engineering"],
+    title: "Industry Insights - NVIDIA",
+    where: "Duques 453",
+    blurb: "Gain valuable industry insights from an NVIDIA Reinforcement Learning Engineer!",
+    tags: ["NVIDIA","Alumni","AI/ML/RL"],
   },
   {
     date: "Apr 10th | 6:00 PM - 8:00 PM",
-    title: "Alumni Social",
-    where: "Duques 150",
+    title: "Tech Social",
+    where: "Duques 405",
     blurb: "Reconnect with fellow alumni and make new connections over food and drinks!",
     tags: ["Alumni","Networking","Social"],
   },
   {
-    date: "Apr 21st | 6:00 PM - 8:00 PM",
-    title: "Hackathon - TBD",
+    date: "Apr 15th | 6:00 PM - 8:00 PM",
+    title: "Hackathon - Cloud Quest",
     where: "Duques 150",
     blurb: "Join us for a night of coding, collaboration, and innovation!",
     tags: ["Hackathon","Coding","Innovation"],
