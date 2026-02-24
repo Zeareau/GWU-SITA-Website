@@ -1,17 +1,18 @@
 import React from "react";
-import featuredImg from "/src/assets/featured_hackathon.jpg";
+// import featuredImg from "/src/assets/featured_hackathon.jpg";
+import featuredImg from "/src/assets/aws-gbm.png";
 
 // EDIT THIS OBJECT to change featured item anytime
 const FEATURED = {
-  title: "Most Recent Hackathon",
+  title: "Most Recent Event",
   blurb:
-    "Members of our project subcommittee participated in an NVIDIA hosted hackathon at Howard University, focusing on using NVIDIA's new Nemotron model to build an 'Agent for Impact.'",
+    "GW SITA hosted an industry insights event with AWS cloud security consultant Bryce Rohloff. Attendees gained valuable insights into the cloud industry and had the opportunity to network with a seasoned professional in the field.",
   img: featuredImg,
-  alt: "Our project subcommitee at an NVIDIA Activity at Howard University",
-  date: "Oct 28, 2025",
+  alt: "Our industry insights event with AWS cloud security consultant Bryce Rohloff in February 2025",
+  date: "Feb 5, 2026",
   ctaLabel: "View Photos",
   ctaLink: "https://www.instagram.com/gwusita/",
-  tags: ["Hackathon", "AI", "Sustainability"],
+  tags: ["AWS", "Outreach", "Networking"],
 };
 
 export default function Featured() {
