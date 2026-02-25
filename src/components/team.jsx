@@ -1,10 +1,11 @@
 // src/data/team.js
 import chris from "../assets/chris_enriquez.jpeg";
 import delina from "../assets/delina_kahsay.jpeg";
-import joven from "../assets/joven_torres.jpeg";
+// import joven from "../assets/joven_torres.jpeg";
 import emily from "../assets/emily_rose.jpeg";
 import maryam from "../assets/maryam_khadim.jpeg";
-import caitlyn from "../assets/caitlyn_nilo.jpeg";
+// import caitlyn from "../assets/caitlyn_nilo.jpeg";
+import careld from "../assets/careld_cruz.jpeg";
 import henry from "../assets/henry_lin.jpeg";
 import jaya from "../assets/jaya_seecharran.jpeg";
 import khadijah from "../assets/khadijah_nassim.jpeg";
@@ -55,10 +56,10 @@ export const TEAM = [
     github: "",
   },
     {
-    name: "Caitlyn Nilo",
+    name: "Careld Cruz",
     role: "Vice President of Graphic Design",
-    linkedin: "https://www.linkedin.com/in/cg-nilo/",
-    img: caitlyn,
+    linkedin: "https://www.linkedin.com/in/careldcruza/",
+    img: careld,
     github: "",
   },
       {
@@ -73,6 +74,6 @@ export const TEAM = [
     role: "Freshman Representative",
     linkedin: "https://www.linkedin.com/in/anieesh/",
     img: anieesh,
-    github: "",
+    github: "https://github.com/asrvn",
   },
 ];
