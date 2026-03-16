@@ -15,7 +15,7 @@ export const EVENTS = [
     tags: ["Valentine's Day","Fundraiser","Chocolate"],
   },
   {
-    date: "Mar 23rd | 7:00 PM - 8:00 PM",
+    date: "Mar 23rd | 6:00 PM - 8:00 PM",
     title: "Industry Insights - NVIDIA",
     where: "Duques 453",
     blurb: "Gain valuable industry insights from an NVIDIA Reinforcement Learning Engineer!",
