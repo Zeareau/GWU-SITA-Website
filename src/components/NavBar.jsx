@@ -9,7 +9,7 @@ export default function NavBar({ onJump, signup = "#" }) {
           </div>
           <div className="leading-tight">
             <p className="text-[11px] text-white/60">George Washington University</p>
-            <h1 className="text-sm font-semibold text-white">SITA • Student Information Technology Association</h1>
+            <h1 className="text-sm font-semibold text-white">SITA • Students In Technology Association</h1>
           </div>
         </div>
 
