@@ -20,7 +20,7 @@ export const TEAM = [
   {
     name: "Chris Enriquez",
     role: "Executive Vice President",
-    linkedin: "https://www.linkedin.com/",
+    linkedin: "https://www.linkedin.com/in/chrisenriquezwork/",
     img: chris,
     github: "https://github.com/Zeareau",
   },
