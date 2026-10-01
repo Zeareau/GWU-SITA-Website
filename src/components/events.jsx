@@ -1,6 +1,13 @@
 // src/data/events.js
 export const EVENTS = [
   {
+    date: "Oct 14 | TBD (3 hrs)",
+    title: "Customizable Candy Apple Fundraiser",
+    where: "University Student Center Floor 1",
+    blurb: "Enjoy a unique sweet treat while supporting our club!",
+    tags: ["Special", "Fundraiser", "Treat", "Community"]
+  },
+  {
     date: "Sept 23 | 6:00 PM - 8:00 PM",
     title: "Resume Workshop",
     where: "Funger Hall Room 320",
