@@ -1,10 +1,10 @@
 // src/data/events.js
 export const EVENTS = [
   {
-    date: "Oct 14 | TBD (3 hrs)",
+    date: "Oct 14 | TBD",
     title: "Customizable Candy Apple Fundraiser",
     where: "University Student Center Floor 1",
-    blurb: "Enjoy a unique sweet treat while supporting our club!",
+    blurb: "Enjoy a sweet treat while supporting our club!",
     tags: ["Special", "Fundraiser", "Treat", "Community"]
   },
   {
