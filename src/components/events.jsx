@@ -1,8 +1,15 @@
 // src/data/events.js
 export const EVENTS = [
   {
-    date: "Oct 14 | TBD",
-    title: "Customizable Candy Apple Fundraiser",
+    date: "Oct 29 | 7:15 PM - 9:00 PM",
+    title: "Industry Insights - AWS",
+    where: "Duques 150",
+    blurb: "Gain valuable industry insights from an AWS account manager and GWU alum!",
+    tags: ["Career", "Networking", "Advice", "Alumni"]
+  },
+  {
+    date: "Oct 22 | 12:30 PM - 4:30 PM",
+    title: "Cinnamon Roll & Candy Apple Fundraiser",
     where: "University Student Center Floor 1",
     blurb: "Enjoy a sweet treat while supporting our club!",
     tags: ["Special", "Fundraiser", "Treat", "Community"]
